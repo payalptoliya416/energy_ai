@@ -1,0 +1,100 @@
+.review-carousel {
+    padding-top: 100px !important;
+    padding: 2rem;
+    text-align: center;
+    background-color: #0d1b4c;
+    color: #fff;
+}
+
+.review-card {
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0 1rem;
+    position: relative;
+}
+.slick-slide{
+    border-right: 1px solid #FFFFFF;
+}
+
+.review-stars {
+    font-size: 1.5rem;
+    color: #ffd700;
+    margin-bottom: 1rem;
+}
+
+.review-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.review-author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+    border: 2px solid #fff;
+}
+
+.review-author h3 {
+    font-size: 1.2rem;
+    color: #03F5F6;
+    margin: 0;
+}
+
+.slick-dots {
+    bottom: -20px;
+    
+  }
+  .slick-dots li button {
+    height: 10px;
+    border: 1px solid black !important;
+    border-radius: 50%;
+    background: transparent; 
+  }
+  
+  .slick-dots li.slick-active button {
+    border-color: black;
+    border: 1px solid black;
+    background: black;
+  }
+  .slick-dots li button:before {
+    color: #fff !important;
+  }
+  .slick-dots li button:hover {
+    border: 1px solid black;
+  }
+  .slick-dots li.slick-active button:before {
+    color: #000 !important;
+    opacity: 1;
+  } 
+  .slick-dots {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+@media (max-width: 768px) {
+    .review-card {
+        margin: 0 auto;
+    }
+
+    .review-carousel {
+        padding: 1rem;
+    }
+}
